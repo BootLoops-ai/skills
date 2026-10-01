@@ -1,0 +1,55 @@
+{
+  "name": "bootloops",
+  "owner": {
+    "name": "Matthew D. Schwartz",
+    "url": "https://www.bootloops.ai"
+  },
+  "metadata": {
+    "description": "The BootLoops harness: working protocols for trustworthy agent-driven science.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bootloops-protocols",
+      "source": "./plugins/bootloops-protocols",
+      "description": "The BootLoops protocol layer: seven disciplines for trustworthy quantitative work with agents — acceptance gates, integer-relation discipline, synthetic-truth controls, provenance bookkeeping, timing discipline, sources-only reading, tool stewardship.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matthew D. Schwartz",
+        "url": "https://www.bootloops.ai"
+      },
+      "homepage": "https://www.bootloops.ai",
+      "repository": "https://github.com/BootLoops-ai/skills",
+      "license": "CC-BY-4.0 AND MIT",
+      "keywords": [
+        "science",
+        "verification",
+        "protocols",
+        "agent-skills",
+        "bootloops"
+      ],
+      "category": "productivity"
+    },
+    {
+      "name": "bootloops-research",
+      "source": "./plugins/bootloops-research",
+      "description": "The BootLoops research skills: heavier machinery for specific tasks — proving with agents (adversary-first pipelines), pre-circulation referee audit, the literature review behind a novelty claim, bibliography verification, and the scientific-prose linter.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Matthew D. Schwartz",
+        "url": "https://www.bootloops.ai"
+      },
+      "homepage": "https://www.bootloops.ai",
+      "repository": "https://github.com/BootLoops-ai/skills",
+      "license": "CC-BY-4.0 AND MIT",
+      "keywords": [
+        "science",
+        "verification",
+        "protocols",
+        "agent-skills",
+        "bootloops"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

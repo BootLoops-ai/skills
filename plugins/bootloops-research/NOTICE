@@ -1,0 +1,29 @@
+BootLoops skills 1.0
+Copyright (c) 2026 Anthropic, PBC
+
+Created by Matthew D. Schwartz. Written by Claude (Anthropic) under his
+supervision. This is not an officially supported Anthropic product; it is
+maintained by Matthew D. Schwartz (https://www.bootloops.ai).
+
+Licensing
+---------
+The skill texts and the other prose in this repository (skills/*/SKILL.md, the
+README files, and their generated copies under plugins/) are released under the
+Creative Commons Attribution 4.0 International License (see LICENSE-CONTENT).
+The scripts and the plugin manifests (tools/, *.json) are released under the
+MIT License (see LICENSE). This repository bundles no third-party components.
+The skills follow the Agent Skills format, originally developed by Anthropic
+and released as an open standard (agentskills.io); the plugin packaging follows
+Anthropic's Claude Code plugin and marketplace specification, OpenAI's Codex
+plugin specification, and the Agent Plugins 1.0 portable manifest schema
+(agent-plugins.org); the `npx skills` installer route is the skills.sh
+directory maintained by Vercel. None of them is affiliated with or endorses
+this repository.
+
+The computing packages that these protocols call "the toolkit" are the
+BootLoops harness, the repository bootloops published beside this one by
+the same organization, which carries its own license files.
+
+How to cite
+-----------
+M. D. Schwartz, BootLoops 1.0 (2026), https://www.bootloops.ai

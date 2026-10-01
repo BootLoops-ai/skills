@@ -1,0 +1,32 @@
+{
+  "name": "bootloops",
+  "interface": {
+    "displayName": "BootLoops skills"
+  },
+  "plugins": [
+    {
+      "name": "bootloops-protocols",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bootloops-protocols"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "bootloops-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bootloops-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
